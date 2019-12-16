@@ -1,0 +1,312 @@
+v 20130925 2
+P 0 2400 300 2400 1 0 0
+{
+T 200 2420 5 5 0 1 0 0 1
+pinseq=1
+T 200 2420 5 5 1 1 0 6 1
+pinnumber=27
+T 100 2420 5 5 0 1 0 6 1
+pintype=in
+T 330 2400 3 5 1 1 0 1 1
+pinlabel=LNA1
+}
+P 0 2300 300 2300 1 0 0
+{
+T 200 2320 5 5 0 1 0 0 1
+pinseq=2
+T 200 2320 5 5 1 1 0 6 1
+pinnumber=25
+T 100 2320 5 5 0 1 0 6 1
+pintype=in
+T 330 2300 3 5 1 1 0 1 1
+pinlabel=LNA2
+}
+P 0 2100 300 2100 1 0 0
+{
+T 200 2120 5 5 0 1 0 0 1
+pinseq=3
+T 200 2120 5 5 1 1 0 6 1
+pinnumber=2
+T 100 2120 5 5 0 1 0 6 1
+pintype=out
+T 330 2100 3 5 1 1 0 1 1
+pinlabel=LNAOUT
+}
+P 0 1900 300 1900 1 0 0
+{
+T 200 1920 5 5 0 1 0 0 1
+pinseq=4
+T 200 1920 5 5 1 1 0 6 1
+pinnumber=5
+T 100 1920 5 5 0 1 0 6 1
+pintype=out
+T 330 1900 3 5 1 1 0 1 1
+pinlabel=MIXIN
+}
+P 0 1600 300 1600 1 0 0
+{
+T 200 1620 5 5 0 1 0 0 1
+pinseq=5
+T 200 1620 5 5 1 1 0 6 1
+pinnumber=3
+T 100 1620 5 5 0 1 0 6 1
+pintype=out
+T 330 1600 3 5 1 1 0 1 1
+pinlabel=ANTBIAS
+}
+P 0 1100 300 1100 1 0 0
+{
+T 200 1120 5 5 0 1 0 0 1
+pinseq=6
+T 200 1120 5 5 1 1 0 6 1
+pinnumber=26
+T 100 1120 5 5 0 1 0 6 1
+pintype=in
+T 330 1100 3 5 1 1 0 1 1
+pinlabel=PGM
+}
+P 0 1300 300 1300 1 0 0
+{
+T 200 1320 5 5 0 1 0 0 1
+pinseq=7
+T 200 1320 5 5 1 1 0 6 1
+pinnumber=15
+T 100 1320 5 5 0 1 0 6 1
+pintype=in
+T 330 1300 3 5 1 1 0 1 1
+pinlabel=XTAL
+}
+V 270 1000 30 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 240 1000 0 1000 1 0 1
+{
+T 200 1020 5 5 0 1 0 0 1
+pinseq=8
+T 200 1020 5 5 1 1 0 6 1
+pinnumber=7
+T 100 1020 5 5 0 1 0 6 1
+pintype=in
+T 330 1000 3 5 1 1 0 1 1
+pinlabel=SHDN
+}
+V 270 900 30 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 240 900 0 900 1 0 1
+{
+T 200 920 5 5 0 1 0 0 1
+pinseq=9
+T 200 920 5 5 1 1 0 6 1
+pinnumber=24
+T 100 920 5 5 0 1 0 6 1
+pintype=in
+T 330 900 3 5 1 1 0 1 1
+pinlabel=IDLE
+}
+V 270 700 30 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 240 700 0 700 1 0 1
+{
+T 200 720 5 5 0 1 0 0 1
+pinseq=10
+T 200 720 5 5 1 1 0 6 1
+pinnumber=10
+T 100 720 5 5 0 1 0 6 1
+pintype=in
+T 330 700 3 5 1 1 0 1 1
+pinlabel=CS
+}
+P 0 600 300 600 1 0 0
+{
+T 200 620 5 5 0 1 0 0 1
+pinseq=11
+T 200 620 5 5 1 1 0 6 1
+pinnumber=9
+T 100 620 5 5 0 1 0 6 1
+pintype=in
+T 330 600 3 5 1 1 0 1 1
+pinlabel=SCLK
+}
+P 0 500 300 500 1 0 0
+{
+T 200 520 5 5 0 1 0 0 1
+pinseq=12
+T 200 520 5 5 1 1 0 6 1
+pinnumber=8
+T 100 520 5 5 0 1 0 6 1
+pintype=in
+T 330 500 3 5 1 1 0 1 1
+pinlabel=SDATA
+}
+P 1300 2100 1600 2100 1 0 1
+{
+T 1400 2120 5 5 0 1 0 6 1
+pinseq=13
+T 1400 2120 5 5 1 1 0 0 1
+pinnumber=21
+T 1500 2120 5 5 0 1 0 0 1
+pintype=out
+T 1270 2100 3 5 1 1 0 7 1
+pinlabel=I1
+}
+P 1300 2200 1600 2200 1 0 1
+{
+T 1400 2220 5 5 0 1 0 6 1
+pinseq=14
+T 1400 2220 5 5 1 1 0 0 1
+pinnumber=20
+T 1500 2220 5 5 0 1 0 0 1
+pintype=out
+T 1270 2200 3 5 1 1 0 7 1
+pinlabel=I0
+}
+P 1300 2300 1600 2300 1 0 1
+{
+T 1400 2320 5 5 0 1 0 6 1
+pinseq=15
+T 1400 2320 5 5 1 1 0 0 1
+pinnumber=17
+T 1500 2320 5 5 0 1 0 0 1
+pintype=out
+T 1270 2300 3 5 1 1 0 7 1
+pinlabel=Q1
+}
+P 1300 2400 1600 2400 1 0 1
+{
+T 1400 2420 5 5 0 1 0 6 1
+pinseq=16
+T 1400 2420 5 5 1 1 0 0 1
+pinnumber=18
+T 1500 2420 5 5 0 1 0 0 1
+pintype=out
+T 1270 2400 3 5 1 1 0 7 1
+pinlabel=Q0
+}
+P 1300 2000 1600 2000 1 0 1
+{
+T 1400 2020 5 5 0 1 0 6 1
+pinseq=17
+T 1400 2020 5 5 1 1 0 0 1
+pinnumber=16
+T 1500 2020 5 5 0 1 0 0 1
+pintype=out
+T 1270 2000 3 5 1 1 0 7 1
+pinlabel=CLKOUT
+}
+P 1300 1700 1600 1700 1 0 1
+{
+T 1400 1720 5 5 0 1 0 6 1
+pinseq=18
+T 1400 1720 5 5 1 1 0 0 1
+pinnumber=1
+T 1500 1720 5 5 0 1 0 0 1
+pintype=out
+T 1270 1700 3 5 1 1 0 7 1
+pinlabel=ANTFLAG
+}
+P 1300 1800 1600 1800 1 0 1
+{
+T 1400 1820 5 5 0 1 0 6 1
+pinseq=19
+T 1400 1820 5 5 1 1 0 0 1
+pinnumber=6
+T 1500 1820 5 5 0 1 0 0 1
+pintype=out
+T 1270 1800 3 5 1 1 0 7 1
+pinlabel=LD
+}
+P 1300 1500 1600 1500 1 0 1
+{
+T 1400 1520 5 5 0 1 0 6 1
+pinseq=20
+T 1400 1520 5 5 1 1 0 0 1
+pinnumber=12
+T 1500 1520 5 5 0 1 0 0 1
+pintype=pas
+T 1270 1500 3 5 1 1 0 7 1
+pinlabel=CPOUT
+}
+P 1300 300 1600 300 1 0 1
+{
+T 1400 320 5 5 0 1 0 6 1
+pinseq=21
+T 1400 320 5 5 1 1 0 0 1
+pinnumber=4
+T 1500 320 5 5 0 1 0 0 1
+pintype=pwr
+T 1270 300 3 5 1 1 0 7 1
+pinlabel=VCCRF
+}
+P 1300 500 1600 500 1 0 1
+{
+T 1400 520 5 5 0 1 0 6 1
+pinseq=22
+T 1400 520 5 5 1 1 0 0 1
+pinnumber=23
+T 1500 520 5 5 0 1 0 0 1
+pintype=pwr
+T 1270 500 3 5 1 1 0 7 1
+pinlabel=VCCIF
+}
+P 1300 1100 1600 1100 1 0 1
+{
+T 1400 1120 5 5 0 1 0 6 1
+pinseq=23
+T 1400 1120 5 5 1 1 0 0 1
+pinnumber=19
+T 1500 1120 5 5 0 1 0 0 1
+pintype=pwr
+T 1270 1100 3 5 1 1 0 7 1
+pinlabel=VCCADC
+}
+P 1300 700 1600 700 1 0 1
+{
+T 1400 720 5 5 0 1 0 6 1
+pinseq=24
+T 1400 720 5 5 1 1 0 0 1
+pinnumber=11
+T 1500 720 5 5 0 1 0 0 1
+pintype=pwr
+T 1270 700 3 5 1 1 0 7 1
+pinlabel=VCCVCO
+}
+P 1300 900 1600 900 1 0 1
+{
+T 1400 920 5 5 0 1 0 6 1
+pinseq=25
+T 1400 920 5 5 1 1 0 0 1
+pinnumber=13
+T 1500 920 5 5 0 1 0 0 1
+pintype=pwr
+T 1270 900 3 5 1 1 0 7 1
+pinlabel=VCCCP
+}
+P 1300 1300 1600 1300 1 0 1
+{
+T 1400 1320 5 5 0 1 0 6 1
+pinseq=26
+T 1400 1320 5 5 1 1 0 0 1
+pinnumber=14
+T 1500 1320 5 5 0 1 0 0 1
+pintype=pwr
+T 1270 1300 3 5 1 1 0 7 1
+pinlabel=VCCD
+}
+P 300 300 0 300 1 0 1
+{
+T 330 300 3 5 1 1 0 1 1
+pinlabel=GND
+T 200 320 5 5 0 1 0 0 1
+pinseq=27
+T 200 320 5 5 1 1 0 6 1
+pinnumber=EP
+T 100 320 5 5 0 1 0 6 1
+pintype=pwr
+}
+B 300 200 1000 2300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 2550 8 8 1 1 0 0 1
+refdes=U?
+T 300 50 9 8 1 0 0 0 1
+MAX2769
+T 1600 0 5 8 0 0 0 0 1
+device=MAX2769ETI+2
+T 1700 200 5 8 0 0 0 0 1
+description=Universal GPS Receiver
+T 1700 400 5 8 0 0 0 0 1
+footprint=QFN28EP

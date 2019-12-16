@@ -1,0 +1,54 @@
+v 20130925 2
+P 0 400 300 400 1 0 0
+{
+T 200 420 5 5 1 1 0 6 1
+pinnumber=1
+T 200 420 5 5 0 1 0 0 1
+pinseq=1
+T 100 420 5 5 0 1 0 6 1
+pintype=pas
+T 330 400 3 5 1 1 0 1 1
+pinlabel=L1
+}
+P 0 300 300 300 1 0 0
+{
+T 200 320 5 5 1 1 0 6 1
+pinnumber=2
+T 200 320 5 5 0 1 0 0 1
+pinseq=2
+T 100 320 5 5 0 1 0 6 1
+pintype=pas
+T 330 300 3 5 1 1 0 1 1
+pinlabel=L2
+}
+P 900 400 1200 400 1 0 1
+{
+T 1000 420 5 5 0 1 0 6 1
+pinseq=3
+T 1000 420 5 5 1 1 0 0 1
+pinnumber=3
+T 1100 420 5 5 0 1 0 0 1
+pintype=pwr
+T 870 400 3 5 1 1 0 7 1
+pinlabel=GND
+}
+P 900 300 1200 300 1 0 1
+{
+T 1000 320 5 5 0 1 0 6 1
+pinseq=4
+T 1100 320 5 5 0 1 0 0 1
+pintype=pwr
+T 1000 320 5 5 1 1 0 0 1
+pinnumber=4
+T 870 300 3 5 1 1 0 7 1
+pinlabel=GND
+}
+B 300 200 600 300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 550 8 8 1 1 0 0 1
+refdes=D?
+T 300 50 9 8 1 1 0 0 1
+device=RClamp522P
+T 1300 0 5 8 0 0 0 0 1
+description=2 line Ultra Low Capacitance TVS Array
+T 1300 200 5 8 0 0 0 0 1
+footprint=SLP1610P4
