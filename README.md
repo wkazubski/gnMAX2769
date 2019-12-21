@@ -1,2 +1,4 @@
 # gnMAX2769
-USB dongle for receiving GNSS signals in L1 band
+This project contains the hardware for the USB dongle for receiving GNSS signals in L1 band. The dongle contains Maxim MAX2769ETI+ RF chip and Cypress CY&c68013A USB-2.0 interface chip. The dongle can be tuned between 1.55GHz and 1.61GHz, so it can receive Glonass and Beidou signals in addition to GPS and Galileo. IF bandwidth can be adjusted in four steps to match signal bandwidth.
+The dogle has two RF inputs. One of them (ANT1) is optimised for passive antennas. In this case the dongle has to be installed close to the antenna to avoid cable losses. The second input is optimised for active antenna and a switchable bias of 3.3V 20mA is provided.
+The output signal is 2x2bit IQ data stream with sample rate 16.368 megasamples per sec (or 16.368MHz). The input frequency is converted to 4.092MHz IF frequency or zero IF (AC coupled).
