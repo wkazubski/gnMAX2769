@@ -104,9 +104,6 @@ void spi_write_byte(unsigned char byte)
     IOA &= ~SPI_SCK; // SCK: \_
     SYNCDELAY;
 
-    IOA |= SPI_SCK; // SCK: _/
-    SYNCDELAY;
-
     mask = mask >> 1;
   } while(mask != 0);
 }
@@ -134,9 +131,6 @@ char write_max2769(__xdata unsigned char *buf)
   SYNCDELAY;
 
   IOA &= ~SPI_SCK; // SCK: \_
-  SYNCDELAY;
-
-  IOA |= SPI_SCK;  // SCK: _/
   SYNCDELAY;
 
   return 0;
