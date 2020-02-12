@@ -62,9 +62,8 @@ static unsigned short idx = 0;
 
 char init_max2769(void)
 {
-  IOA |= SPI_CS|SHDN|SPI_SDATA;
   OEA |= SPI_CS|SPI_SCK|SHDN|SPI_SDATA;
-  OED = 0x00;
+  IOA |= SPI_CS|SHDN|SPI_SDATA;
 
   SYNCDELAY;
 

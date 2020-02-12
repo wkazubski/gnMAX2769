@@ -45,7 +45,8 @@
 
 
 #include "gnmax_main.h"
-#define SPI_SDATA  0x02 //SDATA serial data
+#define LED1  0x04 //LED1 line (red)
+#define LED2  0x08 //LED2 line (green)
 
 
 BYTE  DB_Addr;  // Dual Byte Address stat
@@ -60,6 +61,7 @@ BYTE EE_Page_Size = 0;
 
 void main(void)
 {
+  OED = LED1|LED2;
   init_usrp();
   init_gpif();
   init_max2769();
@@ -79,6 +81,7 @@ void main(void)
   //Javi: disable capture filesize limitation
   //hook_timer_tick((unsigned int)guardC);
 
+  IOD |= LED2;
   main_loop();
 }
 
@@ -220,7 +223,7 @@ app_vendor_cmd(void)
           GPIFTRIG = bmGPIF_EP6_START | bmGPIF_READ; SYNCDELAY; 
           guardCnt = GUARD;
 
-          IOA &= ~SPI_SDATA;
+          IOD |= LED1;
         }
 
         /* stop transfer */
@@ -236,7 +239,7 @@ app_vendor_cmd(void)
           FIFORESET = 0;SYNCDELAY;
           guardCnt = 0;
 
-          IOA |= SPI_SDATA;
+          IOD &= ~LED1;
 
         }
         break;
