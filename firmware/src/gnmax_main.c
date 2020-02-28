@@ -78,9 +78,6 @@ void main(void)
 
   fx2_renumerate(); // simulates disconnect / reconnect
 
-  //Javi: disable capture filesize limitation
-  //hook_timer_tick((unsigned int)guardC);
-
   IOD |= LED2;
   main_loop();
 }
@@ -355,23 +352,6 @@ static void main_loop(void)
       usb_handle_setup_packet();
       _usb_got_SUDAV = 0;
     }
-
-//Javi: Disable capture filesize limitation 
-/*
-    if (guardTick && guardCnt) {
-      guardTick = 0;
-
-      if(!(--guardCnt)) {
-        GPIFTRIG = 0; SYNCDELAY;
-        GPIFABORT =0xff; SYNCDELAY;
-        FIFORESET = bmNAKALL;SYNCDELAY;
-        FIFORESET = 2;SYNCDELAY;
-        FIFORESET = 6;SYNCDELAY;
-        FIFORESET = 0;SYNCDELAY;
-      }
-    }
-*/
-
   }
 }
 
