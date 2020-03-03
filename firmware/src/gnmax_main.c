@@ -62,9 +62,9 @@ BYTE EE_Page_Size = 0;
 void main(void)
 {
   OED = LED1|LED2;
+  init_max2769();
   init_usrp();
   init_gpif();
-  init_max2769();
 
   TD_Init();	// Init fucntion for A9 vendor commands
 
