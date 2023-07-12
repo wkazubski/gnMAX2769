@@ -143,5 +143,3 @@ char status_max2769(void)
 short fifo_status() {
   return idx;
 }
-
-

@@ -1,4 +1,4 @@
-# release: pcb 4.2.0
+# release: pcb 4.2.1
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
@@ -1234,7 +1234,7 @@ Element["" "CAPC1005N" "C3" "10n" 17.0000mm 11.1500mm -2.3103mm 0.6409mm 0 100 "
 
 	)
 
-Element["" "INDC1005N" "L1" "10nH" 16.5000mm 9.9000mm -0.7076mm -2.7992mm 0 100 ""]
+Element["" "INDC1005N" "L1" "47nH" 16.5000mm 9.9000mm -0.7076mm -2.7992mm 0 100 ""]
 (
 	Attribute("device" "INDUCTOR")
 	Attribute("manufacturer" "unknown")
@@ -1451,7 +1451,7 @@ Element["" "CAPC1005N" "C5" "10n" 28.0498mm 8.6501mm -0.7738mm -2.0735mm 0 100 "
 
 	)
 
-Element["" "CAPC1005N" "C2" "10p" 20.5000mm 13.4000mm -1.9611mm -0.6867mm 1 100 ""]
+Element["" "CAPC1005N" "C2" "470p" 20.5000mm 13.4000mm -1.9611mm -0.6867mm 1 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1531,7 +1531,7 @@ Element["" "CAPC1005N" "C10" "100n" 21.2500mm 11.9000mm -0.9166mm -0.9594mm 1 10
 
 	)
 
-Element["" "CAPC1005N" "C1" "10p" 20.5000mm 14.9000mm -1.6337mm 0.2737mm 0 100 ""]
+Element["" "CAPC1005N" "C1" "470p" 20.5000mm 14.9000mm -1.6337mm 0.2737mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -2430,7 +2430,7 @@ Layer(6 "bottom" "copper")
 )
 Layer(7 "outline" "copper")
 (
-	Line[10.0000mm 25.7500mm 62.0000mm 25.7500mm 10.00mil 20.00mil "clearline"]
+	Line[8.5500mm 25.6000mm 60.5500mm 25.6000mm 10.00mil 20.00mil "clearline"]
 	Line[65.5000mm 23.7500mm 65.5000mm 2.2500mm 10.00mil 20.00mil "clearline"]
 	Line[62.0000mm 0.2500mm 10.0000mm 0.2500mm 10.00mil 20.00mil "clearline"]
 	Line[10.0000mm 0.2500mm 10.0000mm 3.7500mm 10.00mil 20.00mil "clearline"]

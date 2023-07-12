@@ -39,7 +39,7 @@ device=CAPACITOR
 T 41900 47900 5 6 1 1 0 0 1
 refdes=C1
 T 41900 47600 5 6 1 1 0 0 1
-value=470p
+value=10p
 T 41900 47500 5 6 0 1 0 0 1
 footprint=CAPC1005N
 }
@@ -50,7 +50,7 @@ device=CAPACITOR
 T 41900 47200 5 6 1 1 0 0 1
 refdes=C2
 T 41900 46900 5 6 1 1 0 0 1
-value=470p
+value=10p
 T 41900 46800 5 6 0 1 0 0 1
 footprint=CAPC1005N
 }
@@ -78,7 +78,7 @@ device=INDUCTOR
 T 41500 46600 5 6 1 1 90 0 1
 refdes=L1
 T 41800 46600 5 6 1 1 90 0 1
-value=47nH
+value=10nH
 T 41900 46600 5 6 0 1 90 0 1
 footprint=INDC1005N
 }
