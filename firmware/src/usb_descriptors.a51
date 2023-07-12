@@ -150,8 +150,8 @@ _high_speed_config_descr::
 	.db	3		; bNumInterfaces 
 	.db	1		; bConfigurationValue 
 	.db	0		; iConfiguration 
-	.db	0x80 | bmSELF_POWERED ; bmAttributes 
-	.db	0		; bMaxPower 
+	.db	0x80		; bmAttributes 
+	.db	40		; bMaxPower 
  
 	;; interface descriptor 0 (command & status, ep0 COMMAND) 
 	 
@@ -260,8 +260,8 @@ _full_speed_config_descr::
 	.db	1		; bNumInterfaces 
 	.db	1		; bConfigurationValue 
 	.db	0		; iConfiguration 
-	.db	0x80 | bmSELF_POWERED ; bmAttributes 
-	.db	0		; bMaxPower 
+	.db	0x80		; bmAttributes 
+	.db	40		; bMaxPower 
  
 	;; interface descriptor 0 (command & status, ep0 COMMAND) 
 	 
