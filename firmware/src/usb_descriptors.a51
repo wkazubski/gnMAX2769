@@ -305,25 +305,19 @@ str0:	.db	str0_end - str0
 	.db	>0x0409		; magic code for US English (MSB) 
 str0_end: 
  
-	SI_VENDOR = 1 
+	SI_SERIAL = 1 
 	.even 
+_serial_number_descriptor:: 
 str1:	.db	str1_end - str1 
 	.db	DSCR_STRING 
-	.db	'G, 0		; 16-bit unicode 
-	.db	'N, 0 
-	.db	'M, 0 
-	.db	'A, 0 
-	.db	'X, 0 
-	.db	' , 0 
-	.db	'P, 0 
-	.db	'r, 0 
-	.db	'o, 0 
-	.db	'j, 0 
-	.db	'e, 0 
-	.db	'c, 0 
-	.db	't, 0 
+	.db	'0, 0 
+	.db	'0, 0 
+	.db	'0, 0 
+	.db	'0, 0 
+	.db	'0, 0 
+	.db	'0, 0 
 str1_end: 
- 
+
 	SI_PRODUCT = 2 
 	.even 
 str2:	.db	str2_end - str2 
@@ -351,9 +345,28 @@ str2:	.db	str2_end - str2
 	.db	'd, 0 
 str2_end: 
  
-	SI_COMMAND_AND_STATUS = 3 
+	SI_VENDOR = 3 
 	.even 
 str3:	.db	str3_end - str3 
+	.db	DSCR_STRING 
+	.db	'G, 0		; 16-bit unicode 
+	.db	'N, 0 
+	.db	'M, 0 
+	.db	'A, 0 
+	.db	'X, 0 
+	.db	' , 0 
+	.db	'P, 0 
+	.db	'r, 0 
+	.db	'o, 0 
+	.db	'j, 0 
+	.db	'e, 0 
+	.db	'c, 0 
+	.db	't, 0 
+str3_end: 
+ 
+	SI_COMMAND_AND_STATUS = 4 
+	.even 
+str4:	.db	str4_end - str4 
 	.db	DSCR_STRING 
 	.db	'C, 0 
 	.db	'o, 0 
@@ -371,11 +384,11 @@ str3:	.db	str3_end - str3
 	.db	't, 0 
 	.db	'u, 0 
 	.db	's, 0 
-str3_end: 
+str4_end: 
  
-	SI_TX_PATH = 4 
+	SI_TX_PATH = 5 
 	.even 
-str4:	.db	str4_end - str4 
+str5:	.db	str5_end - str5 
 	.db	DSCR_STRING 
 	.db	'T, 0 
 	.db	'r, 0 
@@ -390,11 +403,11 @@ str4:	.db	str4_end - str4
 	.db	'a, 0 
 	.db	't, 0 
 	.db	'h, 0 
-str4_end: 
+str5_end: 
  
-	SI_RX_PATH = 5 
+	SI_RX_PATH = 6 
 	.even 
-str5:	.db	str5_end - str5 
+str6:	.db	str6_end - str6 
 	.db	DSCR_STRING 
 	.db	'R, 0 
 	.db	'e, 0 
@@ -408,17 +421,6 @@ str5:	.db	str5_end - str5
 	.db	'a, 0 
 	.db	't, 0 
 	.db	'h, 0 
-str5_end: 
- 
-	SI_SERIAL = 6 
-	.even 
-_serial_number_descriptor:: 
-str6:	.db	str6_end - str6 
-	.db	DSCR_STRING 
-	.db	'0, 0 
-	.db	'0, 0 
-	.db	'0, 0 
-	.db	'0, 0 
-	.db	'0, 0 
 str6_end: 
+ 
  
